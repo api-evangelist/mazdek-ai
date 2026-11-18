@@ -1,4 +1,4 @@
-# mazdek-ai
+# Mazdek AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mazdek-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mazdek.ai/
+Mazdek AI is an AI platform purpose‑built for the Kurdish language, offering speech recognition, text‑to‑speech, translation, and AI chat across Kurdish dialects (Kurmanji, Sorani, Kirmanckî, Hewramî) and over 255 languages. It provides custom‑trained models, thousands of synthetic voices, and tools such as a Kurdish keyboard, spell‑checker, and document translation, aiming to break language barriers and ensure no language is left behind in the AI revolution.
+
+**Areas:** AI · Kurdish · Translation · Speech · Voice
+
+## Mazdek AI on APIs.io
+
+Everything profiled for Mazdek AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mazdek-ai/](https://apis.io/providers/mazdek-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Mazdek AI Account, limits & webhooks API](https://apis.io/apis/mazdek-ai/mazdek-ai-account-limits-webhooks-api/) — Read-only helpers for an integration: the limits and prices that apply to your key, and the delivery log of your job webhooks. The webhook signing secret…
+- [Mazdek AI Songs (Stran) API](https://apis.io/apis/mazdek-ai/mazdek-ai-songs-stran-api/) — Generate original songs with Kurdish lyrics. Two modes: standard (our own hardware) and kurdi (Awaza Kurdî, premium engine, best for Kurdish idioms). With…
+- [Mazdek AI Speech-to-Text (ASR) API](https://apis.io/apis/mazdek-ai/mazdek-ai-speech-to-text-asr-api/) — Transcribe audio/video with fine-tuned Kurmancî/Soranî models or the multilingual model (90+ languages). Pipeline: Upload → Vocal Separation → Noise…
+- [Mazdek AI Spell check (Rastnivîs) API](https://apis.io/apis/mazdek-ai/mazdek-ai-spell-check-rastniv-s-api/) — Kurdish spell checking (Kurmancî, Soranî, Kirmanckî) plus 90+ other languages. Spelling, diacritics and the personal dictionary are free with an API key;…
+- [Mazdek AI Text-to-Speech (TTS) API](https://apis.io/apis/mazdek-ai/mazdek-ai-text-to-speech-tts-api/) — Generate speech from text: native Kurmancî and Soranî voices (1220+) or the multilingual engine (32 languages). Short text: POST /api/tts/generate…
+- [Mazdek AI Translation API](https://apis.io/apis/mazdek-ai/mazdek-ai-translation-api/) — Translate text between ~255 languages (GET /api/translate/languages). Kurdish — Kurmancî (ku), Soranî (ckb), Kirmanckî (zza) — uses dedicated high-quality…
+- [Mazdek AI Chat Completions API](https://apis.io/apis/mazdek-ai/mazdek-ai-chat-completions-api/) — AI chat completion with mazdek AI.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Mazdek Ai Webhooks](https://apis.io/asyncapis/mazdek-ai/mazdek-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mazdek AI Agentic Access](https://apis.io/agentic-access/mazdek-ai/mazdek-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mazdek Ai Context](https://apis.io/jsonld/mazdek-ai/mazdek-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Mazdek AI API Rules](https://apis.io/rules/mazdek-ai/mazdek-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mazdek AI Authentication](https://apis.io/security/mazdek-ai/mazdek-ai-authentication/)
+- [Mazdek AI Domain Security](https://apis.io/security/mazdek-ai/mazdek-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mazdek.ai/)
+- [Getting started](https://mazdek.ai/en/docs/keyboard)
+- [API reference](https://mazdek.ai/ku/docs)
+- [Pricing](https://mazdek.ai/ku/pricing)
+- [Blog](https://mazdek.ai/ku/blog)
+
+## API Evangelist rating
+
+**Kin Score 41.1** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 60.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 19.1 |
+
+**Agent readiness 63.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mazdek-ai/](https://apis.io/providers/mazdek-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mazdek AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mazdek-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
